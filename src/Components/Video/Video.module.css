@@ -1,0 +1,49 @@
+.notavailable {
+  max-width: 300px;
+
+  background: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 1rem;
+  box-shadow: 5px 5px 8px rgb(103, 103, 165);
+  color: rgb(118, 89, 89);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.notavailable h1 {
+  color: rgb(118, 89, 89);
+}
+.available {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+.available > div {
+  width: 80%;
+  margin: auto;
+}
+.available > div * {
+  width: 100%;
+}
+.available p {
+  width: 60%;
+  line-height: 3;
+  margin: auto;
+}
+.available h2 {
+  color: rgb(245, 138, 138);
+  font-size: 2rem;
+  text-align: center;
+}
+.available span {
+  text-align: left;
+  font-family: "Poppins";
+  display: block;
+
+  color: rgb(137, 254, 137);
+}
